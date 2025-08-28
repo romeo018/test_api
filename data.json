@@ -1,0 +1,17 @@
+{
+    "name": "Джон",
+    "возраст": 30,
+    "city": "New York",
+    "kids": [
+        "Mike",
+        "Anna"
+    ],
+    "pets": {
+        "dog": "Rex",
+        "cat": "Barsik"
+    },
+    "wife": {
+        "name": "Jane",
+        "age": 28
+    }
+}

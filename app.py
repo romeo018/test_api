@@ -34,9 +34,6 @@ def add(a: float, b: float):
         return {"error": "Деление на ноль"}
     return {"result": a / b}
 
-@app.get("/users")
-def get_users():
-    return {"users": ["user1", "user2", "user3"]}
 
 if __name__ == "__main__":
     uvicorn.run("app:app", host="127.0.0.1", port=8000, reload=True)
